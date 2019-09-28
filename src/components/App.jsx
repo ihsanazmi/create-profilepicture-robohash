@@ -24,10 +24,10 @@ class App extends Component {
                 <center>
                     <form>
                         <div className="pt-5 w-50">
-                            <input ref ={ (input) =>{this.name = input}} type="text" className="form-control"/>
+                            <input ref ={ (input) =>{this.name = input}} type="text" className="form-control" placeholder="Type your name here..."/>
                         </div>
                         <div className="pt-3">
-                            <button className="btn btn-success" onClick={this.createPp}>Bikin Profile Picture!</button>
+                            <button className="btn btn-success" onClick={this.createPp}>Create Your Profile Picture!</button>
                         </div>
                     </form>
                     <Picture data = {this.state.picture}/>
