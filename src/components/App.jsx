@@ -16,6 +16,8 @@ class App extends Component {
         this.setState({
             picture: _name
         })
+
+        this.name.value = ''
     }
 
     render() {
